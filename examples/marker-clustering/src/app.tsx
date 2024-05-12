@@ -19,13 +19,12 @@ const App = () => (
   <APIProvider apiKey={API_KEY}>
     <Map
       mapId={'bf51a910020fa25a'}
-      defaultCenter={{lat: 43.64, lng: -79.41}}
-      defaultZoom={10}
+      defaultCenter={{lat: 40.604233, lng: -74.002602}}
+      defaultZoom={13}
       gestureHandling={'greedy'}
       disableDefaultUI>
       <Markers points={trees} />
     </Map>
-    <ControlPanel />
   </APIProvider>
 );
 
@@ -73,7 +72,7 @@ const Markers = ({points}: Props) => {
           position={point}
           key={point.key}
           ref={marker => setMarkerRef(marker, point.key)}>
-          <span className="tree">🌳</span>
+
         </AdvancedMarker>
       ))}
     </>
