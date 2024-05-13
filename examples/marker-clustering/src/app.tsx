@@ -3,9 +3,13 @@ import {createRoot} from 'react-dom/client';
 
 import {
   APIProvider,
+  Marker,
   Map,
   useMap,
-  AdvancedMarker
+  AdvancedMarker,
+  Pin,
+  InfoWindow,
+  useAdvancedMarkerRef
 } from '@vis.gl/react-google-maps';
 import {MarkerClusterer} from '@googlemaps/markerclusterer';
 import type {Marker} from '@googlemaps/markerclusterer';
@@ -14,6 +18,11 @@ import ControlPanel from './control-panel';
 
 const API_KEY =
   globalThis.GOOGLE_MAPS_API_KEY ?? (process.env.GOOGLE_MAPS_API_KEY as string);
+
+const USDollar = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+});
 
 const App = () => (
   <APIProvider apiKey={API_KEY}>
@@ -28,7 +37,7 @@ const App = () => (
   </APIProvider>
 );
 
-type Point = google.maps.LatLngLiteral & {key: string};
+type Point = google.maps.LatLngLiteral & {key: string} & {price:string};
 type Props = {points: Point[]};
 
 const Markers = ({points}: Props) => {
@@ -65,15 +74,33 @@ const Markers = ({points}: Props) => {
     });
   };
 
+  const [markerRef, marker] = useAdvancedMarkerRef();
+
   return (
     <>
       {points.map(point => (
-        <AdvancedMarker
-          position={point}
-          key={point.key}
-          ref={marker => setMarkerRef(marker, point.key)}>
+        <>
+        {/*<AdvancedMarker*/}
+        {/*  position={point}*/}
+        {/*  key={point.key}*/}
+        {/*  ref={marker => setMarkerRef(marker, point.key)} >*/}
+        {/*  <Pin*/}
+        {/*    background={'#0f9d58'}*/}
+        {/*    borderColor={'#006425'}*/}
+        {/*    glyphColor={'#60d98f'}*/}
+        {/*  />*/}
+        {/*</AdvancedMarker>*/}
 
-        </AdvancedMarker>
+          <Marker
+          position={{lat: point.lat, lng: point.lng}}
+          clickable={true}
+          onMouseOver={() =>
+            alert('marker was clicked!')
+          }
+          title={'clickable google.maps.Marker'}
+          label={USDollar.format(point.key)}
+        />
+          </>
       ))}
     </>
   );
