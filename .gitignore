@@ -1,9 +1,9 @@
 /node_modules
 /dist
-/examples/**/package-lock.json
-/examples/**/node_modules
-/examples/**/dist
-/examples/**/.env*
+/src/**/package-lock.json
+/src/**/node_modules
+/src/**/dist
+/src/**/.env*
 .idea/workspace.xml
 .idea/workspace.xml
 *.xml

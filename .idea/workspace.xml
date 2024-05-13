@@ -5,12 +5,257 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c5c403b-5aa0-4559-8925-1055c3b4f674" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/marker-clustering/OverlayView/Overlay.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/marker-clustering/OverlayView/OverlayView.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/marker-clustering/OverlayView/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/marker-clustering/src/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/examples/marker-clustering/src/app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/marker-clustering/src/trees.ts" beforeDir="false" afterPath="$PROJECT_DIR$/examples/marker-clustering/src/trees.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ocularrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.ocularrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-docs/RFCs/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api-reference/components/advanced-marker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api-reference/components/api-provider.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api-reference/components/info-window.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api-reference/components/map-control.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api-reference/components/map.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api-reference/components/marker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api-reference/components/pin.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api-reference/hooks/use-api-is-loaded.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api-reference/hooks/use-api-loading-status.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api-reference/hooks/use-map.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api-reference/hooks/use-maps-library.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/contributing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/get-started.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guides/deckgl-integration.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guides/interacting-with-google-maps-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guides/writing-examples.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/table-of-contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/upgrade-guide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/whats-new.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/_template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/_template/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/_template/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/_template/src/app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/_template/src/control-panel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/_template/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodejs/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autocomplete/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autocomplete/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autocomplete/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autocomplete/src/app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autocomplete/src/autocomplete-alpha.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autocomplete/src/autocomplete-classic.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autocomplete/src/autocomplete-custom-hybrid.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autocomplete/src/autocomplete-custom.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autocomplete/src/control-panel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autocomplete/src/map-control.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autocomplete/src/map-handler.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/autocomplete/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/basic-map/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/basic-map/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/basic-map/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/basic-map/src/app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/basic-map/src/control-panel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/basic-map/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/change-map-styles/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/change-map-styles/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/change-map-styles/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/change-map-styles/src/app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/change-map-styles/src/control-panel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/change-map-styles/src/map-styles/bright-colors.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/change-map-styles/src/map-styles/vitamin-c.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/change-map-styles/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/deckgl-overlay/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/deckgl-overlay/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/deckgl-overlay/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/deckgl-overlay/src/app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/deckgl-overlay/src/control-panel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/deckgl-overlay/src/deckgl-overlay.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/deckgl-overlay/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/directions/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/directions/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/directions/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/directions/src/app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/directions/src/control-panel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/directions/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/drawing/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/drawing/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/drawing/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/drawing/src/app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/drawing/src/control-panel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/drawing/src/drawing-example.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/drawing/src/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/drawing/src/undo-redo-control.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/drawing/src/undo-redo.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/drawing/src/use-drawing-manager.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/drawing/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/examples.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/extended-component-library/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/extended-component-library/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/extended-component-library/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/extended-component-library/src/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/extended-component-library/src/app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/extended-component-library/src/control-panel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/extended-component-library/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/geometry/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/geometry/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/geometry/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/geometry/src/app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/geometry/src/components/circle.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/geometry/src/components/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/geometry/src/components/polygon.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/geometry/src/components/polyline.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/geometry/src/control-panel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/geometry/src/encoded-polygon-data.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/geometry/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/homepage-header/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/homepage-header/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/homepage-header/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/homepage-header/src/app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/homepage-header/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/map-control/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/map-control/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/map-control/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/map-control/src/app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/map-control/src/control-panel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/map-control/src/custom-zoom-control.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/map-control/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/marker-clustering/OverlayView/Overlay.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodejs/OverlayView/Overlay.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/marker-clustering/OverlayView/OverlayView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodejs/OverlayView/OverlayView.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/marker-clustering/OverlayView/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodejs/OverlayView/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/marker-clustering/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodejs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/marker-clustering/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodejs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/marker-clustering/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodejs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/marker-clustering/src/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodejs/src/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/marker-clustering/src/control-panel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodejs/src/control-panel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/marker-clustering/src/trees.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodejs/src/trees.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/marker-clustering/types/hotel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/nodejs/types/hotel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/marker-clustering/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/markers-and-infowindows/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/markers-and-infowindows/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/markers-and-infowindows/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/markers-and-infowindows/src/app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/markers-and-infowindows/src/control-panel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/markers-and-infowindows/src/marker-with-infowindow.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/markers-and-infowindows/src/moving-marker.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/markers-and-infowindows/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/multiple-maps/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/multiple-maps/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/multiple-maps/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/multiple-maps/src/app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/multiple-maps/src/control-panel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/multiple-maps/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/vite.config.local.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vite.config.local.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/install-examples.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/update-examples.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/__tests__/__snapshots__/map.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/__tests__/__snapshots__/pin.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/__tests__/__utils__/wait-for-mock-instance.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/__tests__/__utils__/wait-for-spy.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/__tests__/advanced-marker.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/__tests__/api-provider.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/__tests__/info-window.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/__tests__/map-control.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/__tests__/map.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/__tests__/marker.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/__tests__/pin.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/advanced-marker.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/api-provider.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/info-window.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/map-control.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/map/auth-failure-message.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/map/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/map/use-deckgl-camera-update.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/map/use-map-camera-params.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/map/use-map-events.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/map/use-map-instance.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/map/use-map-options.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/map/use-tracked-camera-state-ref.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/marker.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pin.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/__tests__/__snapshots__/use-map.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/__tests__/__utils__/wait-for-mock-instance.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/__tests__/__utils__/wait-for-spy.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/__tests__/api-loading.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/__tests__/use-map.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/use-api-is-loaded.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/use-api-loading-status.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/use-map.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/use-maps-event-listener.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/use-maps-library.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/use-prop-binding.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraries/__mocks__/google-maps-api-loader.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraries/__mocks__/lib/import-library-mock.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraries/__tests__/__snapshots__/google-maps-api-loader.test.ts.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraries/__tests__/google-maps-api-loader.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraries/api-loading-status.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraries/assert-not-null.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraries/errors.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraries/google-maps-api-loader.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraries/lat-lng-utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraries/limit-tilt-range.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraries/set-value-for-styles.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraries/use-callback-ref.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraries/use-deep-compare-effect.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libraries/use-force-update.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.test.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/.npmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/docusaurus.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/ocular-docusaurus-plugin/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/components/common.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/components/example/doc-item-component.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/components/example/examples-index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/components/example/styled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/components/home/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/components/home/styled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/docs-sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/examples-sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/examples/autocomplete.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/examples/basic-map.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/examples/change-map-styles.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/examples/deckgl-overlay.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/examples/directions.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/examples/drawing.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/examples/extended-component-library.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/examples/geometry.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/examples/index.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/examples/map-control.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/examples/marker-clustering.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/examples/markers-and-infowindows.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/examples/multiple-maps.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/pages/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/utils/to-kebap-case.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/examples/autocomplete.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/examples/basic-map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/examples/change-map-styles.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/examples/deckgl-overlay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/examples/directions.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/examples/drawing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/examples/extended-component-library.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/examples/geometry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/examples/map-control.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/examples/marker-clustering.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/examples/markers-and-infowindows.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/examples/multiple-maps.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/icon-high-precision.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/icon-layers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/icon-react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/visgl-logo-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/visgl-logo-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/images/visgl-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/scripts/examples.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

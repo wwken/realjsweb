@@ -1,8 +1,0 @@
-import {ExamplesIndex} from '../components';
-import {toKebapCase} from '../utils/to-kebap-case';
-
-<ExamplesIndex
-  getThumbnail={item =>
-    `/images/examples/${item.docId || toKebapCase(item.label)}.jpg`
-  }
-/>

@@ -1,4 +1,5 @@
 import {defineConfig, loadEnv} from 'vite';
+import {resolve} from 'node:path';
 
 export default defineConfig(({mode}) => {
   const {GOOGLE_MAPS_API_KEY = ''} = loadEnv(mode, process.cwd(), '');
@@ -9,8 +10,13 @@ export default defineConfig(({mode}) => {
     },
     resolve: {
       alias: {
-        '@vis.gl/react-google-maps/examples.js':
-          'https://visgl.github.io/react-google-maps/scripts/examples.js'
+        '@vis.gl/react-google-maps/examples.js': resolve(
+          '../../website/static/scripts/src.js'
+        ),
+        '@vis.gl/react-google-maps/examples.css': resolve(
+          '../../src/src.css'
+        ),
+        '@vis.gl/react-google-maps': resolve('../../src/index.ts')
       }
     }
   };
