@@ -21,7 +21,8 @@ const formatted: Tree[] = trees.map(([name, lat, lng, price]) => ({
   lng,
   price,
   // key: JSON.stringify({name, lat, lng})
-  key: JSON.stringify(price)
+  key: JSON.stringify(price),
+  address: JSON.stringify(name),
 }));
 
 export default formatted;

@@ -1,5 +1,6 @@
 import React, {useEffect, useState, useRef} from 'react';
 import {createRoot} from 'react-dom/client';
+import { motion } from "framer-motion";
 
 import {
   APIProvider,
@@ -10,6 +11,7 @@ import {
 } from '@vis.gl/react-google-maps';
 import {MarkerClusterer} from '@googlemaps/markerclusterer';
 import trees from './trees';
+import OverlayView from "../OverlayView";
 
 const API_KEY =
   globalThis.GOOGLE_MAPS_API_KEY ?? (process.env.GOOGLE_MAPS_API_KEY as string);
@@ -71,6 +73,8 @@ const Markers = ({points}: Props) => {
 
   const [markerRef, marker] = useAdvancedMarkerRef();
 
+  const highlight = false
+
   return (
     <>
       {points.map(point => (
@@ -93,8 +97,37 @@ const Markers = ({points}: Props) => {
             alert('marker was clicked!')
           }
           title={'clickable google.maps.Marker'}
-          label={USDollar.format(point.key)}
-        />
+          label={USDollar.format(point.price)}
+        />  && (
+        <OverlayView
+          position={{
+            lat: point.lat as number,
+            lng: point.lng as number,
+          }}
+          map={map}
+          zIndex={highlight ? 99 : 0}
+        >
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { delay: Math.random() * 0.3 } }}
+            exit={{ opacity: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 400,
+              damping: 20,
+            }}
+          >
+            <button
+              type="button"
+              className={`rounded-full bg-zinc-600 py-1.5 px-2 drop-shadow text-xs text-white ${
+                highlight && "text-black bg-zinc-50 font-bold py-2 px-2.5"
+              }`}
+              // onClick={handleClick}
+            >地址：${point.name} <br />價錢$ ${point.price}
+            </button>
+          </motion.div>
+        </OverlayView>
+      )
           </>
       ))}
     </>
