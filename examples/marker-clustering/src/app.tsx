@@ -6,15 +6,10 @@ import {
   Marker,
   Map,
   useMap,
-  AdvancedMarker,
-  Pin,
-  InfoWindow,
   useAdvancedMarkerRef
 } from '@vis.gl/react-google-maps';
 import {MarkerClusterer} from '@googlemaps/markerclusterer';
-import type {Marker} from '@googlemaps/markerclusterer';
 import trees from './trees';
-import ControlPanel from './control-panel';
 
 const API_KEY =
   globalThis.GOOGLE_MAPS_API_KEY ?? (process.env.GOOGLE_MAPS_API_KEY as string);
